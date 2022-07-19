@@ -1,0 +1,147 @@
+/*Header Address*/
+.inner_cabinet-address{
+    display:flex;
+    justify-content:space-between;
+    list-style-type: none;
+    
+    
+}
+.cabinet-address{
+    padding: 15px 150px 3 100;
+    background-color: #f9f9f9;
+    color:#777a7a;
+    vertical-align:center;
+    border:1px solid #eeeeee;
+}
+.icon-place-solid{
+    text-align: center;
+}
+.btn-cabinet{
+    text-decoration: none;
+    color: #000;;
+    transition: background-color 0.1s linear;
+    font-weight: bold;
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    padding: 8px 15;
+}
+.btn-cabinet:hover{
+    color: #000;
+    background-color:#eeeeee;
+
+}
+/*Logo Number*/
+.logo-number{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 150px 3 100;
+}
+.numbers{
+    list-style-type: none;
+}
+.numberss{
+    text-decoration: none;
+    color:#7b7b83;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: arial, sans-serif;
+    padding-left: 15px;
+    transition: color 0.2s linear;
+}
+.numberss:hover{
+    color:#f54041 !important;
+}
+#main-number{
+    color:#04121a;
+    font-size: 23px;
+    padding-left: 0px;
+}
+
+/*Header Navigation*/
+.header-nav{
+    background-color:#1c1c1c;
+    padding: 0px 100px 0px 100px;
+    
+}
+.menu{
+    list-style-type: none;
+    display:flex;
+}
+.menu-item{
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+.menu-link{
+    text-decoration: none;
+    color:#aaa5a6;
+    transition:color 0.2s linear,background-color 0.2s linear;
+}
+.menu-link:hover{
+    color:#f5fcfb;
+    background-color:#363636;
+}
+
+/*Content
+.content{
+    padding: 0px 150px 0 150;
+    display:flex;
+    justify-content:space-between;
+}
+.sets{
+   background-image: url(https://dve-palochky.kz/wp-content/uploads/2022/01/super-2.jpeg);
+}
+.assorti{
+    background-image: url( https://dve-palochky.kz/wp-content/uploads/2022/01/whatsapp-image-2022-01-27-at-20.36.09.jpeg);
+}
+.pizza{
+    background-image: url(https://dve-palochky.kz/wp-content/uploads/2022/01/whatsapp-image-2022-01-27-at-20.42.56.jpeg );
+}
+.zapechennye-sushi{
+    background-image: url(https://dve-palochky.kz/wp-content/uploads/2022/01/whatsapp-image-2022-01-28-at-16.48.27.jpeg  );
+}
+.gunkany{
+    width: 50%;
+    background-image: url( https://dve-palochky.kz/wp-content/uploads/2022/01/whatsapp-image-2022-01-28-at-11.21.36.jpeg  );
+}
+.nigiri{
+    background-image: url(https://dve-palochky.kz/wp-content/uploads/2022/01/whatsapp-image-2022-01-27-at-20.31.16-e1643294375239.jpeg );
+}
+.napitki{
+    background-color: #000;
+}
+.supi-salati{
+    background-image: url(https://dve-palochky.kz/wp-content/uploads/2022/01/whatsapp-image-2022-01-28-at-16.40.58-1.jpeg  );
+    width:75% !important;
+}*/
+
+.elements-above{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.elements-small{
+    width:50%;
+}
+.elements-big{
+    width:50%;
+    margin-right: 10;
+    
+}
+.category{
+    width:50%;
+    margin: 0 10 10 0;
+}
+.above-small, .under-small{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.elements-under{
+    display:flex;
+    justify-content: space-between;
+}
